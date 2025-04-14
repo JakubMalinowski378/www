@@ -1,0 +1,130 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Jak zacząć oszczędzać?",
+      "excerpt": "Poznaj podstawowe metody oszczędzania pieniędzy.",
+      "content": "Pełna treść artykułu o oszczędzaniu...",
+      "category": "oszczedzanie",
+      "image": "assets/saving.jpg",
+      "date": "2024-01-15",
+      "views": 1250
+    },
+    {
+      "id": 2,
+      "title": "Inwestowanie dla początkujących",
+      "excerpt": "Przewodnik po podstawach inwestowania.",
+      "content": "Pełna treść artykułu o inwestowaniu...",
+      "category": "inwestowanie",
+      "image": "assets/investing.jpg",
+      "date": "2024-02-20",
+      "views": 980
+    },
+    {
+      "id": 3,
+      "title": "Budżet domowy krok po kroku",
+      "excerpt": "Jak zaplanować miesięczny budżet domowy.",
+      "content": "Pełna treść artykułu o budżecie...",
+      "category": "budzet",
+      "image": "assets/budget.jpg",
+      "date": "2024-03-10",
+      "views": 1500
+    },
+    {
+      "id": 4,
+      "title": "Inwestycje dla początkujących",
+      "excerpt": "Od czego zacząć inwestowanie na giełdzie.",
+      "content": "Pełna treść artykułu o inwestycjach...",
+      "category": "inwestycje",
+      "image": "assets/investing.jpg",
+      "date": "2024-03-15",
+      "views": 2100
+    },
+    {
+      "id": 5,
+      "title": "Oszczędzanie na emeryturę",
+      "excerpt": "Sprawdzone sposoby na zabezpieczenie przyszłości.",
+      "content": "Pełna treść artykułu o oszczędzaniu...",
+      "category": "oszczędności",
+      "image": "assets/retirement.jpg",
+      "date": "2024-03-20",
+      "views": 1800
+    },
+    {
+      "id": 6,
+      "title": "Kredyt hipoteczny – poradnik",
+      "excerpt": "Na co zwrócić uwagę przy zaciąganiu kredytu.",
+      "content": "Pełna treść artykułu o kredytach...",
+      "category": "kredyty",
+      "image": "assets/mortgage.jpg",
+      "date": "2024-03-25",
+      "views": 3200
+    },
+    {
+      "id": 7,
+      "title": "Jak unikać zbędnych wydatków",
+      "excerpt": "Proste triki, by przestać wydawać niepotrzebnie.",
+      "content": "Pełna treść artykułu o oszczędzaniu...",
+      "category": "oszczędności",
+      "image": "assets/saving.jpg",
+      "date": "2024-04-01",
+      "views": 1450
+    },
+    {
+      "id": 8,
+      "title": "Podstawy finansów osobistych",
+      "excerpt": "Kluczowe zasady zarządzania własnymi pieniędzmi.",
+      "content": "Pełna treść artykułu o finansach...",
+      "category": "finanse",
+      "image": "assets/finance.jpg",
+      "date": "2024-04-05",
+      "views": 2500
+    },
+    {
+      "id": 9,
+      "title": "Kryptowaluty – ryzyko i korzyści",
+      "excerpt": "Czy warto inwestować w Bitcoin i inne krypto?",
+      "content": "Pełna treść artykułu o kryptowalutach...",
+      "category": "inwestycje",
+      "image": "assets/crypto.jpg",
+      "date": "2024-04-10",
+      "views": 3800
+    },
+    {
+      "id": 10,
+      "title": "Ubezpieczenia – jak wybrać najlepsze?",
+      "excerpt": "Porównanie polis i optymalne rozwiązania.",
+      "content": "Pełna treść artykułu o ubezpieczeniach...",
+      "category": "ubezpieczenia",
+      "image": "assets/insurance.jpg",
+      "date": "2024-04-12",
+      "views": 1700
+    },
+    {
+      "id": 11,
+      "title": "Jak zbudować fundusz awaryjny",
+      "excerpt": "Dlaczego warto mieć oszczędności na nieprzewidziane wydatki.",
+      "content": "Pełna treść artykułu o funduszu awaryjnym...",
+      "category": "oszczędności",
+      "image": "assets/emergency_fund.jpg",
+      "date": "2024-04-15",
+      "views": 2000
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "articleId": 1,
+      "author": "Jan Kowalski",
+      "content": "Świetny artykuł, bardzo pomocny!",
+      "date": "2024-01-20"
+    },
+    {
+      "id": 1,
+      "articleId": 2,
+      "author": "Adam Nowak",
+      "content": "Świetny artykuł!",
+      "date": "2025-01-20"
+    }
+  ]
+}
