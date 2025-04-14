@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css" />
-    <script src="js/main.js" defer></script>
+    <script src="js/main.js" defer type="module"></script>
   </head>
   <body>
     <header class="header">
@@ -30,5 +30,51 @@
         </button>
       </div>
     </header>
+
+    <main class="container">
+      <section class="hero" aria-labelledby="hero-heading">
+        <h2 id="hero-heading">Zarządzaj swoimi finansami mądrze</h2>
+        <p>
+          Poznaj najlepsze sposoby na oszczędzanie, inwestowanie i kontrolę
+          budżetu
+        </p>
+        <a href="#featured" class="btn">Zobacz artykuły</a>
+      </section>
+
+      <section
+        id="featured"
+        class="featured-articles"
+        aria-labelledby="featured-heading"
+      >
+        <h2 id="featured-heading">Polecane artykuły</h2>
+        <div class="articles-grid" id="featured-articles-container">
+          <!-- Dynamicznie ładowane przez JS -->
+        </div>
+        <a href="blog.html" class="btn">Wszystkie artykuły</a>
+      </section>
+
+      <section class="newsletter" aria-labelledby="newsletter-heading">
+        <div class="newsletter-content">
+          <h2 id="newsletter-heading">Zapisz się na newsletter</h2>
+          <form id="newsletter-form" novalidate>
+            <div class="form-group">
+              <label for="email">Twój email:</label>
+              <input
+                type="email"
+                id="email"
+                required
+                aria-describedby="email-error"
+              />
+              <div
+                id="email-error"
+                class="error-message"
+                aria-live="polite"
+              ></div>
+            </div>
+            <button type="submit" class="btn">Zapisz się</button>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
