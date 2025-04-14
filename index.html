@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css" />
-    <script src="js/main.js" defer type="module"></script>
+    <title>Finanse Osobiste - Strona Główna</title>
+    <link rel="stylesheet" href="css/shared.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <script src="js/index.js" defer type="module"></script>
   </head>
   <body>
     <header class="header">
@@ -47,9 +49,7 @@
         aria-labelledby="featured-heading"
       >
         <h2 id="featured-heading">Polecane artykuły</h2>
-        <div class="articles-grid" id="featured-articles-container">
-          <!-- Dynamicznie ładowane przez JS -->
-        </div>
+        <div class="articles-grid" id="featured-articles-container"></div>
         <a href="blog.html" class="btn">Wszystkie artykuły</a>
       </section>
 
@@ -76,5 +76,17 @@
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Finanse Osobiste. Wszelkie prawa zastrzeżone.</p>
+        <nav aria-label="Stopka">
+          <ul>
+            <li><a href="#">Polityka prywatności</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
