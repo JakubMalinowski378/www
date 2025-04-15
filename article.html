@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finanse Osobiste - Artykuł</title>
+    <link rel="stylesheet" href="css/shared.css" />
+    <link rel="stylesheet" href="css/article.css" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <script src="js/article.js" defer type="module"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">💰 Finanse Osobiste</h1>
+        <nav aria-label="Główne menu">
+          <button
+            id="menu-toggle"
+            aria-expanded="false"
+            aria-controls="main-menu"
+          >
+            ☰ Menu
+          </button>
+          <ul id="main-menu" class="hidden">
+            <li><a href="index.html" class="active">Strona główna</a></li>
+            <li><a href="blog.html">Artykuły</a></li>
+            <li><a href="calculator.html">Kalkulator</a></li>
+          </ul>
+        </nav>
+        <button id="dark-mode-toggle" aria-label="Przełącz tryb ciemny">
+          🌙
+        </button>
+      </div>
+    </header>
+
+    <main class="container article-container">
+      <article id="article-content">
+        <!-- Dynamicznie ładowane przez JS -->
+        <div class="loading">Ładowanie artykułu...</div>
+      </article>
+
+      <section class="comments" aria-labelledby="comments-heading">
+        <h2 id="comments-heading">Komentarze</h2>
+        <div id="comments-list">
+          <!-- Dynamicznie ładowane przez JS -->
+        </div>
+        <form id="comment-form" novalidate>
+          <h3>Dodaj komentarz</h3>
+          <div class="form-group">
+            <label for="comment-name">Imię:</label>
+            <input type="text" id="comment-name" required />
+          </div>
+          <div class="form-group">
+            <label for="comment-text">Komentarz:</label>
+            <textarea id="comment-text" required></textarea>
+          </div>
+          <button type="submit" class="btn">Wyślij</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Finanse Osobiste. Wszelkie prawa zastrzeżone.</p>
+        <nav aria-label="Stopka">
+          <ul>
+            <li><a href="#">Polityka prywatności</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

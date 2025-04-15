@@ -1,17 +1,17 @@
 {
   "articles": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Jak zacząć oszczędzać?",
       "excerpt": "Poznaj podstawowe metody oszczędzania pieniędzy.",
-      "content": "Pełna treść artykułu o oszczędzaniu...",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum. Eaque minima provident magni voluptatum optio tempora natus obcaecati aliquid? Et fugiat placeat quas qui nisi, est delectus alias vero.Eveniet dolor veniam, molestiae illum voluptas beatae hic, perspiciatis rerum eos assumenda eligendi tempore. Quam laborum saepe, asperiores, neque harum placeat, rem illo qui ex itaque id perferendis omnis cupiditate?Consequuntur laborum saepe delectus alias culpa maxime commodi quisquam dolorum corporis dolore sed fugit qui similique animi, nobis debitis reiciendis. Ex dolorum voluptate tenetur. Odio excepturi iure ex corrupti velit?Veritatis est nostrum officia laborum quis provident, dolorem saepe animi aperiam, cum in sint expedita vitae ipsa commodi! Voluptatem maiores at blanditiis illo esse itaque voluptates asperiores enim provident aspernatur!Sed vel quae laborum cupiditate distinctio, nesciunt praesentium voluptas eveniet optio inventore nisi expedita suscipit impedit harum ab dolorem repellat veritatis at facere vero! Explicabo fuga placeat expedita magnam sint.Dolorem porro repellendus, dolore nisi possimus nesciunt quasi vitae eveniet aperiam accusamus nihil eum commodi dolor placeat, ut vel deserunt officiis! Quod libero suscipit beatae dolorum voluptates! Ipsa, quod recusandae?Numquam accusamus atque qui provident eos alias voluptates unde? Expedita accusantium nobis hic sapiente temporibus excepturi exercitationem, perferendis amet unde reiciendis? Doloremque earum placeat quibusdam rerum praesentium officia beatae fugit.Vel omnis accusamus ut aliquam asperiores doloremque quam quaerat similique, odit ad iste maxime! Illo quidem earum provident molestiae praesentium esse vitae, quod eligendi qui sequi doloribus, corporis iste sunt.Quas ab recusandae, quo quasi nobis tempore? Illum similique veritatis hic, assumenda error unde dolor porro iusto eius doloremque vitae incidunt magni harum eos voluptatum impedit illo quaerat ipsam omnis.Expedita numquam corrupti quis dolores. Placeat, reprehenderit. Nihil, cumque. Nam amet odit porro, excepturi facere soluta sit doloremque dolores. Autem fugit vero neque dolorem! Asperiores, inventore non. Perferendis, quod quaerat!Praesentium id eum, a doloribus aspernatur consequuntur modi totam beatae et architecto cupiditate porro asperiores rerum, enim fugit? Velit fugit doloremque quam deserunt iusto laboriosam eveniet deleniti similique sequi sunt.Velit, expedita! Corporis, quisquam harum? Voluptatibus aliquam iste eum, ipsam non dolores harum animi nulla cumque optio, vel, temporibus corrupti commodi maiores. Expedita nisi quibusdam dignissimos, non omnis animi itaque.Architecto consequatur possimus eum facere, fugit sed soluta, voluptatem, incidunt animi deserunt quaerat atque. Id, eligendi ipsa libero similique obcaecati aperiam explicabo quis a sit, harum consectetur velit soluta quas.Rerum vero nam dolorum cum, molestiae soluta explicabo consectetur saepe error deleniti amet nesciunt quibusdam voluptatibus beatae accusantium itaque neque! Atque magni eaque eos sapiente maxime dolor optio culpa hic.Temporibus maiores in laboriosam, ipsum beatae accusamus illum debitis perspiciatis vitae sequi error, dolorum quisquam. Minus ipsa non, atque cum, itaque magni esse ipsam cupiditate porro, eius asperiores fugiat ad.Aliquam perspiciatis voluptates quam voluptatibus dolorum. Ipsa blanditiis itaque dolores dolorem sed vero illum labore reiciendis praesentium. Quisquam ullam eligendi cumque aspernatur sunt nostrum reiciendis numquam! Non, amet vel! In.Quae nobis explicabo deserunt officia amet modi hic, iure, delectus doloribus exercitationem sapiente suscipit a rerum. Labore expedita molestiae error aliquam repellendus corrupti nulla veritatis sunt distinctio, saepe dicta maiores.Natus voluptatem, ratione corporis sed cum fuga dolore unde fugiat reprehenderit hic, doloremque nisi, laudantium harum omnis eius? Assumenda a corporis eveniet delectus cupiditate fuga provident esse quod quo architecto.Praesentium, nesciunt eius! Magnam, obcaecati vitae esse quo quis ratione. Illum, reiciendis, iure illo perferendis optio quam ipsa recusandae officia sit, deleniti architecto ratione omnis debitis aut vero. Voluptatibus, eveniet.Iusto dolorem assumenda recusandae repellendus unde alias? Cum sed repellendus veritatis non quis, aspernatur ipsa cumque esse ",
       "category": "oszczedzanie",
       "image": "assets/saving.jpg",
       "date": "2024-01-15",
       "views": 1250
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Inwestowanie dla początkujących",
       "excerpt": "Przewodnik po podstawach inwestowania.",
       "content": "Pełna treść artykułu o inwestowaniu...",
@@ -21,7 +21,7 @@
       "views": 980
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Budżet domowy krok po kroku",
       "excerpt": "Jak zaplanować miesięczny budżet domowy.",
       "content": "Pełna treść artykułu o budżecie...",
@@ -31,7 +31,7 @@
       "views": 1500
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Inwestycje dla początkujących",
       "excerpt": "Od czego zacząć inwestowanie na giełdzie.",
       "content": "Pełna treść artykułu o inwestycjach...",
@@ -41,7 +41,7 @@
       "views": 2100
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Oszczędzanie na emeryturę",
       "excerpt": "Sprawdzone sposoby na zabezpieczenie przyszłości.",
       "content": "Pełna treść artykułu o oszczędzaniu...",
@@ -51,7 +51,7 @@
       "views": 1800
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Kredyt hipoteczny – poradnik",
       "excerpt": "Na co zwrócić uwagę przy zaciąganiu kredytu.",
       "content": "Pełna treść artykułu o kredytach...",
@@ -61,7 +61,7 @@
       "views": 3200
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Jak unikać zbędnych wydatków",
       "excerpt": "Proste triki, by przestać wydawać niepotrzebnie.",
       "content": "Pełna treść artykułu o oszczędzaniu...",
@@ -71,7 +71,7 @@
       "views": 1450
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Podstawy finansów osobistych",
       "excerpt": "Kluczowe zasady zarządzania własnymi pieniędzmi.",
       "content": "Pełna treść artykułu o finansach...",
@@ -81,7 +81,7 @@
       "views": 2500
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Kryptowaluty – ryzyko i korzyści",
       "excerpt": "Czy warto inwestować w Bitcoin i inne krypto?",
       "content": "Pełna treść artykułu o kryptowalutach...",
@@ -91,7 +91,7 @@
       "views": 3800
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Ubezpieczenia – jak wybrać najlepsze?",
       "excerpt": "Porównanie polis i optymalne rozwiązania.",
       "content": "Pełna treść artykułu o ubezpieczeniach...",
@@ -101,7 +101,7 @@
       "views": 1700
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Jak zbudować fundusz awaryjny",
       "excerpt": "Dlaczego warto mieć oszczędności na nieprzewidziane wydatki.",
       "content": "Pełna treść artykułu o funduszu awaryjnym...",
@@ -113,18 +113,95 @@
   ],
   "comments": [
     {
-      "id": 1,
+      "id": "1",
       "articleId": 1,
       "author": "Jan Kowalski",
       "content": "Świetny artykuł, bardzo pomocny!",
       "date": "2024-01-20"
     },
     {
-      "id": 1,
+      "id": "2",
       "articleId": 2,
       "author": "Adam Nowak",
       "content": "Świetny artykuł!",
       "date": "2025-01-20"
+    },
+    {
+      "id": "34",
+      "articleId": 2,
+      "author": "Adam Nowak",
+      "content": "Świetny artykuł!",
+      "date": "2025-01-20"
+    },
+    {
+      "id": "2",
+      "articleId": "1",
+      "author": "safd",
+      "content": "sadf",
+      "date": "2025-04-15"
+    },
+    {
+      "id": "2",
+      "articleId": "1",
+      "author": "test",
+      "content": "test2",
+      "date": "2025-04-15"
+    },
+    {
+      "id": "2",
+      "articleId": "1",
+      "author": "",
+      "content": "",
+      "date": "2025-04-15"
+    },
+    {
+      "id": "2",
+      "articleId": "1",
+      "author": "",
+      "content": "",
+      "date": "2025-04-15"
+    },
+    {
+      "id": "2",
+      "articleId": "1",
+      "author": "dsfg",
+      "content": "afdg",
+      "date": "2025-04-15"
+    },
+    {
+      "id": "2",
+      "articleId": "2",
+      "author": "fdg",
+      "content": "sdfg",
+      "date": "2025-04-15"
+    },
+    {
+      "id": "2",
+      "articleId": "1",
+      "author": "test",
+      "content": "dfgdsfg",
+      "date": "2025-04-15"
+    },
+    {
+      "id": "2",
+      "articleId": "1",
+      "author": "test",
+      "content": "sdfgfdsg",
+      "date": "2025-04-15"
+    },
+    {
+      "id": "2",
+      "articleId": "1",
+      "author": "test",
+      "content": "dfgdfsg",
+      "date": "2025-04-15"
+    },
+    {
+      "id": "2",
+      "articleId": "1",
+      "author": "xd2",
+      "content": "xd22eef",
+      "date": "2025-04-15"
     }
   ]
 }
