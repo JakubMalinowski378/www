@@ -100,16 +100,17 @@ const handleNewArticle = (articleId) => {
       };
       await addNewComment(createCommentPayload);
       form.reset();
-      loadComments(articleId);
     });
 };
 
 document.addEventListener("DOMContentLoaded", () => {
+  const articleId = new URLSearchParams(window.location.search).get("id");
+  if (!articleId) {
+    window.location.href = "index.html";
+    return;
+  }
   initalizeDarkMode();
   initalizeHamburgerMenu();
-
-  const articleId = new URLSearchParams(window.location.search).get("id");
-  if (!articleId) return;
   handleNewArticle(articleId);
   loadArticle(articleId);
   loadComments(articleId);
