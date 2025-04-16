@@ -46,7 +46,6 @@
       "excerpt": "Sprawdzone sposoby na zabezpieczenie przyszłości.",
       "content": "Pełna treść artykułu o oszczędzaniu...",
       "category": "oszczędności",
-      "image": "assets/retirement.jpg",
       "date": "2024-03-20",
       "views": 1800
     },
@@ -56,7 +55,6 @@
       "excerpt": "Na co zwrócić uwagę przy zaciąganiu kredytu.",
       "content": "Pełna treść artykułu o kredytach...",
       "category": "kredyty",
-      "image": "assets/mortgage.jpg",
       "date": "2024-03-25",
       "views": 3200
     },
@@ -66,7 +64,6 @@
       "excerpt": "Proste triki, by przestać wydawać niepotrzebnie.",
       "content": "Pełna treść artykułu o oszczędzaniu...",
       "category": "oszczędności",
-      "image": "assets/saving.jpg",
       "date": "2024-04-01",
       "views": 1450
     },
@@ -76,7 +73,6 @@
       "excerpt": "Kluczowe zasady zarządzania własnymi pieniędzmi.",
       "content": "Pełna treść artykułu o finansach...",
       "category": "finanse",
-      "image": "assets/finance.jpg",
       "date": "2024-04-05",
       "views": 2500
     },
@@ -86,7 +82,6 @@
       "excerpt": "Czy warto inwestować w Bitcoin i inne krypto?",
       "content": "Pełna treść artykułu o kryptowalutach...",
       "category": "inwestycje",
-      "image": "assets/crypto.jpg",
       "date": "2024-04-10",
       "views": 3800
     },
@@ -96,7 +91,6 @@
       "excerpt": "Porównanie polis i optymalne rozwiązania.",
       "content": "Pełna treść artykułu o ubezpieczeniach...",
       "category": "ubezpieczenia",
-      "image": "assets/insurance.jpg",
       "date": "2024-04-12",
       "views": 1700
     },
@@ -106,7 +100,6 @@
       "excerpt": "Dlaczego warto mieć oszczędności na nieprzewidziane wydatki.",
       "content": "Pełna treść artykułu o funduszu awaryjnym...",
       "category": "oszczędności",
-      "image": "assets/emergency_fund.jpg",
       "date": "2024-04-15",
       "views": 2000
     }
@@ -145,20 +138,6 @@
       "articleId": "1",
       "author": "test",
       "content": "test2",
-      "date": "2025-04-15"
-    },
-    {
-      "id": "2",
-      "articleId": "1",
-      "author": "",
-      "content": "",
-      "date": "2025-04-15"
-    },
-    {
-      "id": "2",
-      "articleId": "1",
-      "author": "",
-      "content": "",
       "date": "2025-04-15"
     },
     {

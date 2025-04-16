@@ -30,7 +30,10 @@ const loadArticle = async (articleId) => {
   articleContainer.innerHTML = `
         <article>
             <header class="article-header">
-                <span class="article-category">${article.category}</span>
+                <span class="article-category">${
+                  article.category.charAt(0).toUpperCase() +
+                  article.category.slice(1)
+                }</span>
                 <h1 class="article-title">${article.title}</h1>
                 <div class="article-meta">
                     <time datetime="${article.date}">${article.date}</time>
@@ -39,7 +42,7 @@ const loadArticle = async (articleId) => {
                     } wyświetleń</span>
                 </div>
                 <img src="${
-                  article.image || "assets/default-article.jpg"
+                  article.image || "assets/Image-not-found.png"
                 }" alt="${article.title}" class="article-image">
             </header>
             

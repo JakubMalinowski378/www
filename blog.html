@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finanse Osobiste - Strona Główna</title>
+    <link rel="stylesheet" href="css/shared.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <script src="js/blog.js" defer type="module"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">💰 Finanse Osobiste</h1>
+        <nav aria-label="Główne menu">
+          <button
+            id="menu-toggle"
+            aria-expanded="false"
+            aria-controls="main-menu"
+          >
+            ☰ Menu
+          </button>
+          <ul id="main-menu" class="hidden">
+            <li><a href="index.html" class="active">Strona główna</a></li>
+            <li><a href="blog.html">Artykuły</a></li>
+            <li><a href="calculator.html">Kalkulator</a></li>
+          </ul>
+        </nav>
+        <button id="dark-mode-toggle" aria-label="Przełącz tryb ciemny">
+          🌙
+        </button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="blog-header" aria-labelledby="blog-heading">
+        <h1 id="blog-heading">Wszystkie artykuły</h1>
+        <div class="search-filter">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Wyszukaj artykuły..."
+            aria-label="Wyszukaj artykuły"
+          />
+          <select id="category-filter" aria-label="Filtruj po kategorii">
+            <option value="all">Wszystkie kategorie</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="all-articles" aria-labelledby="articles-heading">
+        <h2 id="articles-heading" class="visually-hidden">Lista artykułów</h2>
+        <div class="articles-grid" id="all-articles-container"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Finanse Osobiste. Wszelkie prawa zastrzeżone.</p>
+        <nav aria-label="Stopka">
+          <ul>
+            <li><a href="#">Polityka prywatności</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
