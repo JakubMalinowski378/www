@@ -1,11 +1,9 @@
-/* Article container */
 .article-container {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-/* Article header */
 .article-header {
   margin-bottom: 2rem;
 }
@@ -50,7 +48,6 @@
   box-shadow: var(--shadow);
 }
 
-/* Article body */
 .article-body {
   line-height: 1.7;
   font-size: 1.1rem;
@@ -99,7 +96,6 @@
   margin-bottom: 0.5rem;
 }
 
-/* Article footer */
 .article-footer {
   margin: 3rem 0;
   padding-top: 2rem;
@@ -124,14 +120,12 @@
   font-size: 0.8rem;
 }
 
-/* Loading state */
 .loading {
   text-align: center;
   padding: 2rem;
   color: #666;
 }
 
-/* Comments section */
 .comments {
   margin: 4rem 0;
   padding-top: 2rem;
@@ -171,7 +165,6 @@
   color: #aaa;
 }
 
-/* Comment form */
 #comment-form {
   background-color: var(--light-color);
   padding: 2rem;
@@ -230,7 +223,6 @@
   transform: translateY(-2px);
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .article-title {
     font-size: 1.8rem;

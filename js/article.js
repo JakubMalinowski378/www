@@ -1,5 +1,9 @@
 import { fetchComments, fetchArticleById, addNewComment } from "./api.js";
-import { initalizeDarkMode, initalizeHamburgerMenu } from "./utils.js";
+import {
+  initalizeDarkMode,
+  initalizeHamburgerMenu,
+  capitalize,
+} from "./utils.js";
 
 const loadComments = async (articleId) => {
   const comments = await fetchComments(articleId);
@@ -30,10 +34,9 @@ const loadArticle = async (articleId) => {
   articleContainer.innerHTML = `
         <article>
             <header class="article-header">
-                <span class="article-category">${
-                  article.category.charAt(0).toUpperCase() +
-                  article.category.slice(1)
-                }</span>
+                <span class="article-category">${capitalize(
+                  article.category
+                )}</span>
                 <h1 class="article-title">${article.title}</h1>
                 <div class="article-meta">
                     <time datetime="${article.date}">${article.date}</time>

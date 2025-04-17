@@ -22,7 +22,7 @@
             ☰ Menu
           </button>
           <ul id="main-menu" class="hidden">
-            <li><a href="index.html" class="active">Strona główna</a></li>
+            <li><a href="index.html">Strona główna</a></li>
             <li><a href="blog.html">Artykuły</a></li>
             <li><a href="calculator.html">Kalkulator</a></li>
           </ul>
@@ -35,15 +35,12 @@
 
     <main class="container article-container">
       <article id="article-content">
-        <!-- Dynamicznie ładowane przez JS -->
         <div class="loading">Ładowanie artykułu...</div>
       </article>
 
       <section class="comments" aria-labelledby="comments-heading">
         <h2 id="comments-heading">Komentarze</h2>
-        <div id="comments-list">
-          <!-- Dynamicznie ładowane przez JS -->
-        </div>
+        <div id="comments-list"></div>
         <form id="comment-form" novalidate>
           <h3>Dodaj komentarz</h3>
           <div class="form-group">

@@ -1,4 +1,8 @@
-import { initalizeDarkMode, initalizeHamburgerMenu } from "./utils.js";
+import {
+  initalizeDarkMode,
+  initalizeHamburgerMenu,
+  capitalize,
+} from "./utils.js";
 import { fetchArticles } from "./api.js";
 
 let articles;
@@ -18,7 +22,9 @@ const renderArticles = (articles) => {
                   article.image || "assets/Image-not-found.png"
                 }" alt="${article.title}">
                 <div class="article-content">
-                    <span class="category-badge">${article.category}</span>
+                    <span class="category-badge">${capitalize(
+                      article.category
+                    )}</span>
                     <h3>${article.title}</h3>
                     <p>${article.excerpt}</p>
                     <div class="article-meta">
@@ -41,14 +47,13 @@ const loadArticlesAndCategories = async () => {
   for (const category of categories) {
     const option = document.createElement("option");
     option.value = category;
-    option.textContent = category.charAt(0).toUpperCase() + category.slice(1);
+    option.textContent = capitalize(category);
     selectHandler.appendChild(option);
   }
   renderArticles(articles);
 };
 
 const filterArticles = () => {
-  console.log("z");
   const selectedCategory = document.getElementById("category-filter").value;
   const searchPhrase = document.getElementById("search-input").value;
   var filteredArticles = articles.filter(

@@ -1,10 +1,8 @@
-/* Main content styles */
 main {
   padding: 2rem 0;
-  min-height: calc(100vh - 120px); /* Adjust based on header height */
+  min-height: calc(100vh - 120px);
 }
 
-/* Hero section */
 .hero {
   text-align: center;
   padding: 3rem 1rem;
@@ -28,7 +26,6 @@ main {
   opacity: 0.9;
 }
 
-/* Button styles */
 .btn {
   display: inline-block;
   background-color: white;
@@ -47,7 +44,6 @@ main {
   transform: translateY(-2px);
 }
 
-/* Featured articles section */
 .featured-articles {
   margin-bottom: 4rem;
 }
@@ -132,7 +128,6 @@ main {
   transform: translateX(3px);
 }
 
-/* Newsletter section */
 .newsletter {
   background-color: var(--light-color);
   padding: 3rem 1rem;
@@ -182,7 +177,6 @@ main {
   display: none;
 }
 
-/* Animation */
 [data-animate="fade"] {
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -193,7 +187,6 @@ main {
   transform: translateY(0);
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 1.8rem;

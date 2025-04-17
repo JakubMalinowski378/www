@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finanse Osobiste - Strona Główna</title>
+    <link rel="stylesheet" href="css/shared.css" />
+    <link rel="stylesheet" href="css/calculator.css" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <script src="js/calculator.js" defer type="module"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">💰 Finanse Osobiste</h1>
+        <nav aria-label="Główne menu">
+          <button
+            id="menu-toggle"
+            aria-expanded="false"
+            aria-controls="main-menu"
+          >
+            ☰ Menu
+          </button>
+          <ul id="main-menu" class="hidden">
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="blog.html">Artykuły</a></li>
+            <li><a href="calculator.html" class="active">Kalkulator</a></li>
+          </ul>
+        </nav>
+        <button id="dark-mode-toggle" aria-label="Przełącz tryb ciemny">
+          🌙
+        </button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="calculator-section" aria-labelledby="calculator-heading">
+        <h1 id="calculator-heading">Kalkulator Finansowy</h1>
+        <div class="calculator-content">
+          <div id="savings-calculator" class="calculator-form active">
+            <form id="savings-form">
+              <div class="form-group">
+                <label for="initial-amount">Kwota początkowa (zł):</label>
+                <input
+                  type="number"
+                  id="initial-amount"
+                  min="0"
+                  step="100"
+                  value="1000"
+                />
+              </div>
+              <div class="form-group">
+                <label for="monthly-saving">Miesięczna wpłata (zł):</label>
+                <input
+                  type="number"
+                  id="monthly-saving"
+                  min="0"
+                  step="100"
+                  value="500"
+                />
+              </div>
+              <div class="form-group">
+                <label for="interest-rate">Oprocentowanie (%):</label>
+                <input
+                  type="number"
+                  id="interest-rate"
+                  min="0"
+                  max="100"
+                  step="0.1"
+                  value="5"
+                />
+              </div>
+              <div class="form-group">
+                <label for="saving-period">Okres oszczędzania (lata):</label>
+                <input
+                  type="number"
+                  id="saving-period"
+                  min="1"
+                  max="50"
+                  value="5"
+                />
+              </div>
+              <button type="submit" class="btn">Oblicz</button>
+            </form>
+            <div class="results" id="savings-results">
+              <h3>Wynik:</h3>
+              <p>Końcowa kwota: <span id="final-amount">-</span> zł</p>
+              <p>Zarabiasz: <span id="earned-amount">-</span> zł</p>
+            </div>
+          </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Finanse Osobiste. Wszelkie prawa zastrzeżone.</p>
+        <nav aria-label="Stopka">
+          <ul>
+            <li><a href="#">Polityka prywatności</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -40,15 +40,32 @@ export const initalizeDarkMode = () => {
   });
 };
 
+// export const initalizeHamburgerMenu = () => {
+//   const menuToggle = document.getElementById("menu-toggle");
+//   const mainMenu = document.getElementById("main-menu");
+
+//   menuToggle.addEventListener("click", () => {
+//     const isExpanded = this.getAttribute("aria-expanded") === "true";
+//     this.setAttribute("aria-expanded", !isExpanded);
+//     mainMenu.classList.toggle("show");
+
+//     this.textContent = isExpanded ? "☰ Menu" : "✕ Zamknij";
+//   });
+// };
+
 export const initalizeHamburgerMenu = () => {
   const menuToggle = document.getElementById("menu-toggle");
   const mainMenu = document.getElementById("main-menu");
 
   menuToggle.addEventListener("click", () => {
-    const isExpanded = this.getAttribute("aria-expanded") === "true";
-    this.setAttribute("aria-expanded", !isExpanded);
+    console.log(this);
+    const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
+    menuToggle.setAttribute("aria-expanded", !isExpanded);
     mainMenu.classList.toggle("show");
-
-    this.textContent = isExpanded ? "☰ Menu" : "✕ Zamknij";
+    menuToggle.textContent = isExpanded ? "☰ Menu" : "✕ Zamknij";
   });
+};
+
+export const capitalize = (string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
 };
